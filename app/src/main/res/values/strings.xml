@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">VEX Mashup Studio</string>
+    <string name="processing">Processing audio</string>
+    <string name="cancel">Cancel</string>
+    <string name="workspace">Studio</string>
+    <string name="projects">Projects</string>
+    <string name="models">Model</string>
+    <string name="settings">Settings</string>
+    <string name="track_a">Song A</string>
+    <string name="track_b">Song B</string>
+    <string name="choose_audio">Choose audio file</string>
+    <string name="replace">Replace</string>
+    <string name="create">Create Mashup</string>
+    <string name="mashup_mode">Mashup mode</string>
+    <string name="ready">Analyzed</string>
+    <string name="unknown">Unknown</string>
+    <string name="model_needed">Install the stem separation model to create a mashup.</string>
+    <string name="new_project">New mix</string>
+    <string name="no_projects">Your saved mixes will appear here.</string>
+    <string name="install">Download model</string>
+    <string name="reinstall">Reinstall model</string>
+    <string name="remove">Remove model</string>
+    <string name="installed">Installed</string>
+    <string name="not_installed">Download required</string>
+    <string name="model_details">HTDemucs · 166 MB download · MIT · CPU inference. Separates vocals, drums, bass and instruments on this device.</string>
+    <string name="threads">CPU usage</string>
+    <string name="eco">Cool · 2 threads</string>
+    <string name="balanced">Balanced · 3 threads</string>
+    <string name="fast">Fast · 4 threads</string>
+    <string name="clean">Clear unused cache</string>
+    <string name="licenses">Third-party licenses</string>
+    <string name="privacy">Audio and projects are processed on-device. Share only audio you have permission to use.</string>
+    <string name="language">Language follows your Android app settings.</string>
+    <string name="language_settings">Open app language settings</string>
+    <string name="timeline">Timeline</string>
+    <string name="alternatives">Alternatives</string>
+    <string name="undo">Undo</string>
+    <string name="redo">Redo</string>
+    <string name="snap">Snap to beat</string>
+    <string name="marker">Add marker</string>
+    <string name="clear_markers">Clear markers</string>
+    <string name="position">Cursor</string>
+    <string name="preview">Render &amp; play</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="export">Export WAV</string>
+    <string name="share">Share WAV</string>
+    <string name="rate">Sample rate</string>
+    <string name="depth">Bit depth</string>
+    <string name="delete">Delete</string>
+    <string name="delete_project">Delete this project?</string>
+    <string name="close">Close</string>
+    <string name="done">Done</string>
+    <string name="cancelled">Processing cancelled.</string>
+    <string name="gain">Gain</string>
+    <string name="pan">Pan</string>
+    <string name="start">Source start</string>
+    <string name="length">Clip length</string>
+    <string name="offset">Timeline offset</string>
+    <string name="tempo">Tempo ratio</string>
+    <string name="pitch">Pitch</string>
+    <string name="low">Low EQ</string>
+    <string name="mid">Mid EQ</string>
+    <string name="high">High EQ</string>
+    <string name="wet">Echo / reverb</string>
+    <string name="hp">High-pass</string>
+    <string name="lp">Low-pass</string>
+    <string name="drums">Drums</string>
+    <string name="bass">Bass</string>
+    <string name="other">Instruments</string>
+    <string name="vocals">Vocals</string>
+    <string name="mute">Mute</string>
+    <string name="solo">Solo</string>
+    <string name="compatibility">Estimated match %1$d / 100</string>
+    <string name="mix_stats">RMS %1$.1f dBFS · Peak %2$.1f dBFS · Pre-limit overloads %3$d</string>
+    <string name="clip_range">%1$s %2$.1f–%3$.1f s</string>
+    <string name="zoom_in">Zoom in</string>
+    <string name="zoom_out">Zoom out</string>
+    <string name="err_match">These tracks have no reliable match. Try Auto or a different song with a closer tempo and key.</string>
+    <string name="err_beat">A reliable beat grid could not be found. Try a track with a steady, clear beat.</string>
+    <string name="err_model">Install or reinstall the HTDemucs model in the Model tab.</string>
+    <string name="err_storage">Storage is full or unavailable. Free up space or pick another destination.</string>
+    <string name="err_audio">Audio is damaged, inaccessible or unsupported on this device.</string>
+    <string name="err_duration">Choose audio between 3 seconds and 30 minutes.</string>
+    <string name="err_silent">This audio is silent or too quiet to analyze.</string>
+    <string name="err_memory">The device ran out of memory. Close other apps and try again.</string>
+    <string name="err_download">Model download failed. Check your connection and retry.</string>
+    <string name="err_same">Choose two different songs.</string>
+    <string name="err_drm">Protected audio cannot be used.</string>
+    <string name="err_background">Open the studio and start the job again.</string>
+    <string name="err_processing">The operation could not be completed.</string>
+    <string name="err_stems">Project audio is missing. Import the two songs and recreate the mix.</string>
+    <string-array name="stages">
+        <item>Downloading model</item>
+        <item>Decoding audio</item>
+        <item>Analyzing rhythm and key</item>
+        <item>Verifying model</item>
+        <item>Loading HTDemucs</item>
+        <item>Separating Song A</item>
+        <item>Separating Song B</item>
+        <item>Finding compatible phrases</item>
+        <item>Preparing edited clips</item>
+        <item>Mixing and mastering</item>
+        <item>Writing audio</item>
+        <item>Clearing unused files</item>
+    </string-array>
+    <string-array name="modes">
+        <item>Auto Mashup</item>
+        <item>Vocals A + Instrumental B</item>
+        <item>Vocals B + Instrumental A</item>
+        <item>Hybrid Mashup</item>
+        <item>Club Remix</item>
+        <item>Smooth Remix</item>
+        <item>Creative Remix</item>
+    </string-array>
+    <string-array name="variants">
+        <item>Best Match</item>
+        <item>Energetic Mix</item>
+        <item>Smooth Mix</item>
+        <item>Vocal Focus</item>
+        <item>Instrumental Focus</item>
+    </string-array>
+    <string-array name="sections">
+        <item>Intro</item>
+        <item>Verse</item>
+        <item>Chorus</item>
+        <item>Bridge</item>
+        <item>Outro</item>
+    </string-array>
+</resources>

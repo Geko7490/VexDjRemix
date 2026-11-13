@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">VEX Mashup Studio</string>
+    <string name="processing">Ses işleniyor</string>
+    <string name="cancel">İptal</string>
+    <string name="workspace">Stüdyo</string>
+    <string name="projects">Projeler</string>
+    <string name="models">Model</string>
+    <string name="settings">Ayarlar</string>
+    <string name="track_a">Şarkı A</string>
+    <string name="track_b">Şarkı B</string>
+    <string name="choose_audio">Ses dosyası seç</string>
+    <string name="replace">Değiştir</string>
+    <string name="create">Mashup oluştur</string>
+    <string name="mashup_mode">Mashup modu</string>
+    <string name="ready">Analiz tamamlandı</string>
+    <string name="unknown">Belirsiz</string>
+    <string name="model_needed">Mashup oluşturmak için ses ayırma modelini kur.</string>
+    <string name="new_project">Yeni mix</string>
+    <string name="no_projects">Kaydedilen mix’lerin burada görünür.</string>
+    <string name="install">Modeli indir</string>
+    <string name="reinstall">Modeli yeniden kur</string>
+    <string name="remove">Modeli kaldır</string>
+    <string name="installed">Kurulu</string>
+    <string name="not_installed">İndirme gerekli</string>
+    <string name="model_details">HTDemucs · 166 MB indirme · MIT · CPU çıkarımı. Vokal, davul, bas ve enstrümanları bu cihazda ayırır.</string>
+    <string name="threads">CPU kullanımı</string>
+    <string name="eco">Serin · 2 iş parçacığı</string>
+    <string name="balanced">Dengeli · 3 iş parçacığı</string>
+    <string name="fast">Hızlı · 4 iş parçacığı</string>
+    <string name="clean">Kullanılmayan önbelleği temizle</string>
+    <string name="licenses">Üçüncü taraf lisansları</string>
+    <string name="privacy">Ses ve projeler cihazda işlenir. Yalnızca kullanım iznin olan sesleri paylaş.</string>
+    <string name="language">Dil, Android uygulama ayarlarını takip eder.</string>
+    <string name="language_settings">Uygulama dili ayarını aç</string>
+    <string name="timeline">Zaman çizelgesi</string>
+    <string name="alternatives">Alternatifler</string>
+    <string name="undo">Geri al</string>
+    <string name="redo">Yinele</string>
+    <string name="snap">Vuruşa hizala</string>
+    <string name="marker">İşaret ekle</string>
+    <string name="clear_markers">İşaretleri sil</string>
+    <string name="position">İmleç</string>
+    <string name="preview">Hazırla ve çal</string>
+    <string name="play">Oynat</string>
+    <string name="pause">Duraklat</string>
+    <string name="export">WAV dışa aktar</string>
+    <string name="share">WAV paylaş</string>
+    <string name="rate">Örnekleme hızı</string>
+    <string name="depth">Bit derinliği</string>
+    <string name="delete">Sil</string>
+    <string name="delete_project">Bu proje silinsin mi?</string>
+    <string name="close">Kapat</string>
+    <string name="done">Tamamlandı</string>
+    <string name="cancelled">İşlem iptal edildi.</string>
+    <string name="gain">Seviye</string>
+    <string name="pan">Pan</string>
+    <string name="start">Kaynak başlangıcı</string>
+    <string name="length">Klip süresi</string>
+    <string name="offset">Zaman konumu</string>
+    <string name="tempo">Tempo oranı</string>
+    <string name="pitch">Perde</string>
+    <string name="low">Bas EQ</string>
+    <string name="mid">Orta EQ</string>
+    <string name="high">Tiz EQ</string>
+    <string name="wet">Yankı / reverb</string>
+    <string name="hp">Yüksek geçiren</string>
+    <string name="lp">Alçak geçiren</string>
+    <string name="drums">Davul</string>
+    <string name="bass">Bas</string>
+    <string name="other">Enstrümanlar</string>
+    <string name="vocals">Vokal</string>
+    <string name="mute">Sessiz</string>
+    <string name="solo">Solo</string>
+    <string name="compatibility">Tahmini uyum %1$d / 100</string>
+    <string name="mix_stats">RMS %1$.1f dBFS · Tepe %2$.1f dBFS · Sınırlama öncesi taşma %3$d</string>
+    <string name="clip_range">%1$s %2$.1f–%3$.1f sn</string>
+    <string name="zoom_in">Yakınlaştır</string>
+    <string name="zoom_out">Uzaklaştır</string>
+    <string name="err_match">Bu parçalar arasında güvenilir eşleşme bulunamadı. Otomatik modu veya tempo ve tonalitesi daha yakın başka bir şarkıyı dene.</string>
+    <string name="err_beat">Güvenilir vuruş ızgarası bulunamadı. Vuruşu net ve temposu sabit bir parça dene.</string>
+    <string name="err_model">Model sekmesinde HTDemucs modelini kur veya yeniden yükle.</string>
+    <string name="err_storage">Depolama dolu veya erişilemiyor. Yer aç veya başka bir hedef seç.</string>
+    <string name="err_audio">Ses dosyası bozuk, erişilemiyor veya bu cihazda desteklenmiyor.</string>
+    <string name="err_duration">3 saniye ile 30 dakika arasında bir ses dosyası seç.</string>
+    <string name="err_silent">Bu ses dosyası sessiz veya analiz için fazla düşük seviyede.</string>
+    <string name="err_memory">Cihazın belleği tükendi. Diğer uygulamaları kapatıp tekrar dene.</string>
+    <string name="err_download">Model indirilemedi. Bağlantını kontrol edip tekrar dene.</string>
+    <string name="err_same">İki farklı şarkı seç.</string>
+    <string name="err_drm">Korumalı ses dosyaları kullanılamaz.</string>
+    <string name="err_background">Stüdyoyu açıp işlemi yeniden başlat.</string>
+    <string name="err_processing">İşlem tamamlanamadı.</string>
+    <string name="err_stems">Projenin ses dosyaları eksik. İki şarkıyı içe aktararak mix’i yeniden oluştur.</string>
+    <string-array name="stages">
+        <item>Model indiriliyor</item>
+        <item>Ses çözülüyor</item>
+        <item>Ritim ve tonalite analiz ediliyor</item>
+        <item>Model doğrulanıyor</item>
+        <item>HTDemucs yükleniyor</item>
+        <item>Şarkı A kanallara ayrılıyor</item>
+        <item>Şarkı B kanallara ayrılıyor</item>
+        <item>Uyumlu bölümler aranıyor</item>
+        <item>Düzenlenen klipler hazırlanıyor</item>
+        <item>Mix ve mastering yapılıyor</item>
+        <item>Ses dosyası yazılıyor</item>
+        <item>Kullanılmayan dosyalar siliniyor</item>
+    </string-array>
+    <string-array name="modes">
+        <item>Otomatik Mashup</item>
+        <item>Vokal A + Altyapı B</item>
+        <item>Vokal B + Altyapı A</item>
+        <item>Hibrit Mashup</item>
+        <item>Kulüp Remiksi</item>
+        <item>Yumuşak Remiks</item>
+        <item>Yaratıcı Remiks</item>
+    </string-array>
+    <string-array name="variants">
+        <item>En İyi Eşleşme</item>
+        <item>Enerjik Mix</item>
+        <item>Yumuşak Mix</item>
+        <item>Vokal Odaklı</item>
+        <item>Altyapı Odaklı</item>
+    </string-array>
+    <string-array name="sections">
+        <item>Giriş</item>
+        <item>Kıta</item>
+        <item>Nakarat</item>
+        <item>Köprü</item>
+        <item>Çıkış</item>
+    </string-array>
+</resources>
