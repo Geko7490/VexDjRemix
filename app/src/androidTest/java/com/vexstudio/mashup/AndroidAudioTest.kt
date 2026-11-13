@@ -24,7 +24,7 @@ class AndroidAudioTest {
             wave.outputStream().use { WavOutput.write(input, it, WavQuality(48000, 16), {}) }
             val decoded = File(dir, "decoded.raw")
             MediaInput(context).decode(Uri.fromFile(wave), decoded, {}) { _, _ -> }
-            PcmReader(decoded).use { assertEquals(RATE, it.frames, 4) }
+            PcmReader(decoded).use { assertTrue(abs(RATE - it.frames) <= 4) }
         } finally { dir.deleteRecursively() }
     }
 
