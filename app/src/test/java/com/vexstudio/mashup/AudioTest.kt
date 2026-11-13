@@ -77,7 +77,7 @@ class AudioTest {
         assertEquals(2.0, first.tracks.first().pitch, .00001)
         val club = MashupPlanner().plan(a, b, Mode.CLUB).first()
         assertNotEquals(club.tracks.first { it.stem == Stem.BASS }, first.tracks.first { it.stem == Stem.BASS })
-        assertThrows(IllegalArgumentException::class.java) { MashupPlanner().plan(a, source("c", 123.0, 6), Mode.AUTO) }
+        assertThrows(IllegalArgumentException::class.java) { MashupPlanner().plan(a, source("c", 160.0, 6), Mode.AUTO) }
     }
 
     @Test fun renderedWavHasValidHeaderAndMutedMixIsSilent() {

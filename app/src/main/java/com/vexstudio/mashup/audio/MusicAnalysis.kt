@@ -114,8 +114,8 @@ class MusicAnalysis {
         val onsets = flux.indices.filter { i ->
             i > 0 && i < flux.lastIndex && flux[i] > average * 1.45 && flux[i] > flux[i - 1] && flux[i] >= flux[i + 1]
         }
-        val minLag = (60 / 180 / step).roundToInt()
-        val maxLag = (60 / 68 / step).roundToInt()
+        val minLag = (60.0 / 180 / step).roundToInt()
+        val maxLag = (60.0 / 68 / step).roundToInt()
         if (onsets.size < 5 || flux.size < maxLag * 3) return Beat(0.0, 0.0, 0.0, 0.0, onsets.size)
         val centered = DoubleArray(flux.size) { max(0.0, flux[it] - average * .72) }
         val norm = centered.sumOf { it * it }
